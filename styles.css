@@ -1,0 +1,117 @@
+/* Estilos para o modo claro */
+body.light-mode {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+/* Estilos para o modo escuro */
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.header.dark-mode {
+    background-color: #444;
+}
+
+/* Estilos para a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+/* Outros estilos do seu site */
+/* ... */
+
+/* Botão de alternância */
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    z-index: 999; /* Para garantir que o botão esteja sempre visível */
+}
+
+/* Seção de pesquisa */
+.search {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent; /* Remova o fundo da seção */
+}
+
+/* Seção "Sobre Nós" */
+.about-us {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent; /* Remova o fundo da seção */
+}
+
+/* Seção de contato */
+.contact {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent; /* Remova o fundo da seção */
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Botão de alternância no rodapé */
+.footer button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para o modo escuro no rodapé */
+.footer.dark-mode {
+    background-color: #444;
+}
+
+/* Adicione mais estilos conforme necessário para o restante do seu site */
+
+/* Estilo de fundo do site inteiro */
+body {
+    background-color: white; /* Substitua pela cor desejada */
+    text-align: center;
+}
